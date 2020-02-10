@@ -7,16 +7,6 @@
 // let sentence = `${firstName} ${lastName} has ${degrees} Masters degrees.`
 // console.log(sentence)
 
-
-
-
-
-
-
-
-
-
-
 // function sumAndMultiply(a, b){
 //     return [a+b, a*b]
 // }
@@ -27,12 +17,6 @@
 // console.log(sum)
 // console.log(multiply)
 // console.log(devision)
-
-
-
-
-
-
 
 // const firstPerson = {
 //     fitstName: 'asad',
@@ -65,15 +49,6 @@
 // console.log(province)
 // console.log(address)
 
-
-
-
-
-
-
-
-
-
 // const {name: firstName, age, favoriteFood = 'Rice', address: {city, province}} = secondPerson
 // // console.log(name)
 // console.log(firstName)
@@ -81,7 +56,6 @@
 // console.log(favoriteFood)
 // console.log(city)
 // console.log(province)
-
 
 // const someArray = ['Asad']
 // const [a = "newName"] = someArray
@@ -100,18 +74,17 @@
 // console.log(thirdName)
 
 const circle = {
-    radius: 10,
-    color: 'orange',
-    getArea: function() {
-      return Math.PI * this.radius * this.radius;
-    },
-    getCircumference: function() {
-      return 2 * Math.PI * this.radius;
-    }
-  };
-  
-  let {radius, getArea, getCircumference, color} = circle;
-  console.log(radius)
-  console.log(getArea)
-  console.log(getCircumference)
-  console.log(color)
+  radius: 10,
+  color: "orange",
+  getArea: function() {
+    console.log(this.radius);
+    return Math.PI * this.radius * this.radius;
+  },
+  getCircumference: function() {
+    return 2 * Math.PI * this.radius;
+  }
+};
+
+console.log(this);
+const { radius, num, getArea, getCircumference, color } = circle;
+console.log(getArea());
