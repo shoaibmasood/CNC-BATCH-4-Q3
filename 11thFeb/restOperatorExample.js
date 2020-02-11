@@ -6,6 +6,7 @@
 
 
 //   function add(...args) {
+//       console.log(args)
 //     let result = 0;
   
 //     for (let arg of args) result += arg;
@@ -28,3 +29,11 @@
 //   }
   
 //   xyz("hey", "hello", "wassup", "goodmorning", "hi", "howdy")
+
+function bio(...bio){
+    // console.log(fname)
+    // console.log(lname)
+    console.log(bio)
+}
+    
+bio('Asad', 'ikhlas', 23, 'web developer', 'software engineer')

@@ -1,14 +1,15 @@
 // Object.values
-
 //OLD WAY
 
-// let student = { name: 'KRUNAL', education: 'BE IT' };
+// let student = { name: 'Asad', education: 'BE SE' };
 // let arr = [];
 // for (const prop in student) {
+// console.log(prop)
 //   arr.push(student[prop]);
+  
 // }
 // console.log(arr);
-
+//output: ['Asad', 'BS SE']
 
 // const obj = {
 //     fname: 'Asad',
@@ -30,14 +31,12 @@
 
 
 
-
 // let obj = { name: "Millie", age: 15, city: "London" };
-
-// Object.keys(obj).map(function(key, index) {
-//   obj[key] += 'App';
+// Object.keys(obj).map((key) => {
+//   obj[key] += ' application';
 // });
-
 // console.log(obj);
+//Output: { name: "Millie application", age: 15 application, city: "London application" }
 
 // let data = {
 //     name: 'Eleven',
@@ -46,8 +45,12 @@
 //   }
   
 //   for (let key in data) {
-//       console.log(key)
 //     if (data.hasOwnProperty(key)) {
 //       console.log(data[key])
 //     }
 //   }
+
+//OutPut:
+// Eleven
+// Stranger Things 
+// Millie Bobby Brown
