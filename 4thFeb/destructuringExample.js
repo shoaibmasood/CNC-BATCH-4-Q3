@@ -73,18 +73,20 @@
 // // console.log(secondName)
 // console.log(thirdName)
 
-const circle = {
-  radius: 10,
-  color: "orange",
-  getArea: function() {
-    console.log(this.radius);
-    return Math.PI * this.radius * this.radius;
-  },
-  getCircumference: function() {
-    return 2 * Math.PI * this.radius;
-  }
-};
+// const circle = {
+//   radius: 10,
+//   color: "orange",
+//   getArea: function() {
+//     console.log(this.radius)
+//     return Math.PI * this.radius * this.radius;
+//   },
+//   getCircumference: function() {
+//     console.log('RADIUS IN OBJ',radius)
+//     return 2 * Math.PI * radius;
+//   }
+// };
 
-console.log(this);
-const { radius, num, getArea, getCircumference, color } = circle;
-console.log(getArea());
+// // console.log(this);
+// const { radius , getArea, getCircumference, color } = circle;
+// console.log(getArea());
+// console.log(getCircumference())

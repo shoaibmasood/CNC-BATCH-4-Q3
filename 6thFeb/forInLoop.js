@@ -4,9 +4,6 @@
 // }
 
 
-
-
-
 // const object = {a: 1, b: 2, c: 3};
 
 // for (const property in object) {
@@ -22,6 +19,7 @@
 
 // const array = [1, 2, 3, 70]
 // for(const index in array){
+//   console.log(index)
 //   console.log(array[index])
 // }
 
