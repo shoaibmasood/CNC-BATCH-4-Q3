@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NewComponent from './Components/NewComponent.component'
-// import './app.css'
 
 class App extends Component {
   render() {
